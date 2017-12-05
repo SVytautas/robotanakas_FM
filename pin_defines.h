@@ -1,0 +1,10 @@
+
+
+//Nokia ekranelis
+//SPI1 
+#define PCD8544_SPI													SPI1
+//
+#define PCD8544_SPI_CLK_ENABLE() 						__HAL_RCC_SPI1_CLK_ENABLE()
+#define PCD8544_SCK_GPIO_CLK_ENABLE()       __HAL_RCC_GPIOA_CLK_ENABLE()
+#define PCD8544_MOSI_GPIO_CLK_ENABLE()      __HAL_RCC_GPIOA_CLK_ENABLE() 
+ 
